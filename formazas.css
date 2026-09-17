@@ -1,0 +1,55 @@
+
+
+header{
+    color: grey;
+}
+
+nav{
+    background-color: rgb(212, 206, 206);
+}
+
+nav button{
+    background-color: rgb(230, 66, 66);
+    color: white;
+    border: none;
+}
+
+nav ul{
+    list-style: none;
+
+}
+
+.elso a{
+    background-color: rgb(255, 1, 1);
+    text-decoration: none;
+    color: white;
+}
+
+.elso li a{
+    margin: 5px;
+}
+
+.masodik a{
+    
+    text-decoration: none;
+    color: red;
+    border-right: 1px solid gray;
+    
+}
+
+div{
+    background-color: rgb(138, 135, 135);
+}
+
+div h2{
+    color: white;
+    background-color:  rgb(226, 24, 24);
+    margin: 5px;
+    padding: 5px;
+}
+
+
+div p{
+    color: rgb(241, 230, 180);
+    padding: 5px;
+}
