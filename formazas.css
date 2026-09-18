@@ -2,31 +2,35 @@
 
 header{
     color: grey;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(212, 206, 206);
 }
 
 nav{
     background-color: rgb(212, 206, 206);
-}
-
-nav button{
-    background-color: rgb(230, 66, 66);
-    color: white;
-    border: none;
+    margin: 10px;
+    padding: 10px;
 }
 
 nav ul{
     list-style: none;
+}
 
+nav ul li{
+    padding: 5px;
+}
+
+article{
+    margin: 10px;
 }
 
 .elso a{
     background-color: rgb(255, 1, 1);
     text-decoration: none;
     color: white;
-}
-
-.elso li a{
-    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .masodik a{
@@ -46,6 +50,7 @@ div h2{
     background-color:  rgb(226, 24, 24);
     margin: 5px;
     padding: 5px;
+    border-radius: 2.5px;
 }
 
 
@@ -53,3 +58,20 @@ div p{
     color: rgb(241, 230, 180);
     padding: 5px;
 }
+
+footer nav{
+    margin: 10px;
+    padding: 10px;
+}
+
+footer nav ul{
+    margin: auto;
+    padding: 0;
+}
+
+footer .masodik a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+}
+
