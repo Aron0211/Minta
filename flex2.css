@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+article{
+    display: flex;
+    flex-direction: rowwrap;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+article div{
+    
+    flex: 1 1 200px;
+    /* flex: 0 0 200px; */
+    /* flex: 1 1 calc(25% -10px) */
+}   
+

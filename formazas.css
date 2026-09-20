@@ -33,12 +33,20 @@ article{
     padding: 5px;
 }
 
+.elso a:hover{
+    background-color: rgb(239, 130, 130);
+    color: rgb(33, 32, 32);
+}
+
 .masodik a{
     
     text-decoration: none;
     color: red;
-    border-right: 1px solid gray;
-    
+    border-right: 1px solid gray; 
+}
+
+.masodik a:hover{
+    color: rgb(239, 130, 130);
 }
 
 div{
