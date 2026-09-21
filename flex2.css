@@ -25,7 +25,6 @@ footer nav ul{
 
 article{
     display: flex;
-    flex-direction: rowwrap;
     flex-wrap: wrap;
     gap: 10px;
 }
@@ -33,8 +32,9 @@ article{
 
 article div{
     
-    flex: 1 1 200px;
-    /* flex: 0 0 200px; */
+    flex: 0 0 calc(33.333% - 6.666px);
+    /*  flex: 1 1 calc(25% - 10px);*/
+    /*  flex: 0 0 200px; */
     /* flex: 1 1 calc(25% -10px) */
 }   
 
