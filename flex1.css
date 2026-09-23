@@ -1,7 +1,3 @@
-*{
-    box-sizing: border-box;
-
-}
 
 
 nav{
@@ -35,12 +31,10 @@ article{
 article div{
     
     flex: 1 1 200px;
-    /* flex: 0 0 200px; */
-    /* flex: 1 1 calc(25% -10px) */
+
 }   
 
 article .furi{
     flex: 1 1 400px;
-    /* flex: 0 0 200px; */
-    /* flex: 1 1 calc(25% -10px) */
+
 }

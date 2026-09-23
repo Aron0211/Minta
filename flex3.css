@@ -25,16 +25,15 @@ footer nav ul{
 
 article{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
-    align-items: stretch;
+    align-items: flex-start;
     justify-content: center;
     gap: 10px;
 }
 
 
 article div{
-    
     flex: 0 0 calc(33% - 10px);
 }   
 
